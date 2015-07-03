@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Realname:</strong>
+  <%= @correo.realname %>
+</p>
+
+<p>
+  <strong>Userid:</strong>
+  <%= @correo.userid %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @correo.password %>
+</p>
+
+<%= link_to 'Edit', edit_correo_path(@correo) %> |
+<%= link_to 'Back', correos_path %>
